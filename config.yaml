@@ -1,0 +1,73 @@
+darksky: 
+  apikey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+beacons:
+  - name: bedroom lamp
+    type: yeelight
+    ip: 192.168.xxx.xxx
+
+forecast:
+  timeframe: 12 # in hours 0-48
+  location:
+    latitude: 47.1615
+    longitude: 27.5841
+
+lightshow:
+  brightness: 100
+  transition:
+    duration: 2
+    delay: 60
+  temperature:
+    colors:
+      - name: freezing
+        rgb: [0, 0, 255] # dark blue
+        max: 10
+      - name: cold
+        rgb: [0, 147, 255] # light blue
+        min: 10
+        max: 20
+      - name: normal
+        rgb: [255, 206, 155] # yellow
+        min: 20
+        max: 25
+        default: true
+      - name: warm
+        rgb: [255, 105, 16] # orange
+        min: 25
+        max: 30
+      - name: hot
+        rgb: [255, 0, 0] # red
+        min: 30
+  condition: 
+    colors:
+      - name: clear or mostly clear
+        rgb: [185, 255, 179] # light green
+        icon:
+          - clear-day
+          - clear-night
+          - partly-cloudy-day
+          - partly-cloudy-night
+        default: true
+      - name: cloudy
+        rgb: [0, 255, 0] # dark green
+        icon:
+          - cloudy
+      - name: rain
+        rgb: [138, 43, 226] # purple
+        icon:
+          - rain
+          - sleet
+      - name: snow
+        rgb: [179, 233, 255] # white 
+        icon:
+          - snow
+      - name: warning
+        rgb: [207, 0, 255] # pink
+        icon:
+          - wind
+          - fog
+          - sand
+          - dust
+          - hail
+          - thunderstorm
+          - tornado
