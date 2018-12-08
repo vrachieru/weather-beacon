@@ -1,2 +1,2 @@
-git+git://github.com/vrachieru/darksky-api/@releases/tag/1.0.1#egg=darksky
-git+git://github.com/vrachieru/xiaomi-yeelight-api/@releases/tag/1.0.0#egg=yeelight
+git+git://github.com/vrachieru/darksky-api/@1.0.1#egg=darksky
+git+git://github.com/vrachieru/xiaomi-yeelight-api/@1.0.0#egg=yeelight
