@@ -2,7 +2,7 @@
     <img src="https://user-images.githubusercontent.com/5860071/49688211-41b4fd00-fb17-11e8-871a-773f11eeaf4f.png" width="100px" />
     <br/>
     <a href="https://github.com/vrachieru/weather-beacon/releases/latest">
-        <img src="https://img.shields.io/badge/version-0.0.1-brightgreen.svg?style=flat-square" alt="Version">
+        <img src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat-square" alt="Version">
     </a>
     <a href="https://travis-ci.org/vrachieru/weather-beacon">
         <img src="https://img.shields.io/travis/vrachieru/weather-beacon.svg?style=flat-square" alt="Version">
